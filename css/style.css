@@ -1,0 +1,29 @@
+* {
+	padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:15px;
+	
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+.liked{
+	display: none;
+}
+a#like-btn {
+    color: red;
+	cursor: pointer;
+}
+a#unlike-btn {
+    color: red;
+	cursor: pointer;
+}
