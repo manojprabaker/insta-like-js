@@ -10,20 +10,27 @@ body{
 background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
 
 }
-.container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 80vh;
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
-.liked{
-	display: none;
+.post{
+	margin: 4rem;
 }
-a#like-btn {
-    color: red;
+.like{
+	color: #000;
+	text-decoration: none;
+	fill:red;
+  }
+a i{
 	cursor: pointer;
 }
-a#unlike-btn {
-    color: red;
-	cursor: pointer;
+  .active{
+	color:red;
+  }
+  .insta-post {
+    margin: 3rem;
 }
